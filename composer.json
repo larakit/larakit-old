@@ -15,7 +15,7 @@
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
-        "larakit/lk-boot",
+        "larakit/lk-boot": "*",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.7"
     },
