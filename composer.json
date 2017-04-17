@@ -48,62 +48,6 @@
         ]
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-quickform.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/sf-m-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-auth-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-auth.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/project.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-page.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-widget.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-telegrambot.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-thumb.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-hashids.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-verstak.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:larakit/lk-route.git"
-        }
     ],
     "config": {
         "preferred-install": "dist"
