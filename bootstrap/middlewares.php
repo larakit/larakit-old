@@ -45,3 +45,5 @@
 \Larakit\Boot::register_middleware_route('can', \Illuminate\Auth\Middleware\Authorize::class);
 \Larakit\Boot::register_middleware_route('guest', \App\Http\Middleware\RedirectIfAuthenticated::class);
 \Larakit\Boot::register_middleware_route('throttle', \Illuminate\Routing\Middleware\ThrottleRequests::class);
+
+Larakit\Boot::register_provider(Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);

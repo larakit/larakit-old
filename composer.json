@@ -14,6 +14,10 @@
         "laravel/tinker": "~1.0",
         "larakit/lk-boot": "*",
         "larakit/cmd-vcs": "*",
+        "barryvdh/laravel-ide-helper": "*",
+	"larakit/lk-staticfiles": "*",
+        "barryvdh/laravel-debugbar": "*",
+        "larapack/dd": "1.*",
         "hirak/prestissimo": "^0.3"
     },
     "require-dev": {
@@ -47,7 +51,8 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php artisan optimize"
+            "php artisan optimize",
+            "php artisan larakit:sf:deploy"
         ]
     },
     "repositories": [

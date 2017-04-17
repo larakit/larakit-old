@@ -1,5 +1,5 @@
 <?php
-
+"../vendor/larapack/dd/src/helper.php";
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
